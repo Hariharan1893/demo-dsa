@@ -1,0 +1,21 @@
+{
+  // Auto-save on focus change or delay
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000, // in ms
+
+  // Organize imports automatically when saving a file
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+
+  // Optional: Format file on save
+  "editor.formatOnSave": true,
+
+  // Optional: Java specific settings (ensure Java Extension Pack is installed)
+  "java.format.enabled": true,
+  "java.saveActions.organizeImports": true,
+
+  // Optional: Use spaces instead of tabs (common for Java)
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4
+}
